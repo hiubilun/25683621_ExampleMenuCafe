@@ -2,7 +2,7 @@ html{
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
 }
-body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -34,7 +34,7 @@ body{
     padding-top: 25px;
     padding-bottom: 25px;
     display: flex;
-    flex-direction: row;
+    gap: 10px;
 }
 #aside-1{
     display: flex;
@@ -116,7 +116,6 @@ textarea{
     width: 100%;
 }
 .card{
-    justify-content: center;
     padding: 10px 20px 10px;
 }
 .card a{
